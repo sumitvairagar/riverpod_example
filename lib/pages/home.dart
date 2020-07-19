@@ -11,7 +11,7 @@ class Home extends HookWidget {
   Widget build(BuildContext context) {
     var settings = useProvider(settingsProvider);
     var courses = useProvider(courseListProvider).data;
-
+    var theme = settings.theme; // Theme can be used later.
     return Scaffold(
       appBar: AppBar(
         title: Text('Courses'),

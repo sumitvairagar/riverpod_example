@@ -1,6 +1,8 @@
 # riverpod_example
 
-A new Flutter project.
+A simple integration with Riverpod provider package.
+
+Firebase Integration and sample Settings screen
 
 ## Getting Started
 
